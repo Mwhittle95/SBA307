@@ -1,9 +1,10 @@
 .body{
-    background-color: solid white;
+    background-color: solid grey;
 }
 
 .navbar{
-    border: solid indigo;
+    /* border: solid indigo; */
+    background-color: burlywood;
     display: flex;
     height: 18vh;
     width: 100%;
@@ -12,12 +13,13 @@
 }
 
 .navlogo{
-    border: solid red;
+    /* border: solid red; */
     width: 10%;
 }
 
 .navmenu{
-    border: solid green;
+    /* border: solid green; */
+    color: white;
     width: 43%;
     justify-content: space-between;
     display: flex;
@@ -25,7 +27,7 @@
 }
 
 .navhelp{
-    border: solid black;
+    /* border: solid black; */
     width: 8%;
     padding: 12px;
     text-align: center;
@@ -33,7 +35,7 @@
 }
 
 .navlogin{
-    border: solid blue;
+    /* border: solid blue; */
     width: 8%;
     align-content: center;
     margin-left: 2px;
@@ -53,7 +55,7 @@
 }
 
 .navsignup{
-    border: solid pink;
+    /* border: solid pink; */
     width: 8%;
     align-content: center;
 }
@@ -113,8 +115,9 @@
   .smallbusiness:hover .dropbtn {background-color: #8c12b1;}
 
   .imagecontainer{
-    border: solid yellow;
-    height: 750px;
+    /* border: solid yellow; */
+    background-color: purple;
+    height: 457px;
     align-items: center;
     padding: 12px;
     margin: auto;
@@ -136,9 +139,27 @@
 
 
   .table{
-    border: solid purple;
+    /* border: solid purple; */
     background-color: blue;
     height: 140px;
     width: 25%;
     
   }
+    .form{
+        background-color: green;
+    }
+
+    .gif{
+        background-color: purple;
+        border: solid black;
+        height: 410px;
+        width: 36%;
+        padding: 10px;
+    }
+
+    .thanksgiving{
+        background-color: bisque;
+        border: solid black;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
