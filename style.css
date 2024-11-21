@@ -112,7 +112,7 @@
   .smallbusiness:hover .smallbusinessbtn {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .smallbusiness:hover .dropbtn {background-color: #8c12b1;}
+  .smallbusiness:hover .dropbtn {background-color: #8c12b1; color: white;}
 
   .imagecontainer{
     /* border: solid yellow; */
@@ -162,4 +162,11 @@
         border: solid black;
         padding: 5px;
         margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .loginform{
+        border: solid black;
+        background-color: lightblue;
+        height: 25px;
     }
